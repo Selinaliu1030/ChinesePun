@@ -1,7 +1,8 @@
-{"text": "見朕騎姬", "label": 1, "logic": "Mandarin 'Gǎn líng yáng' sounds like 見證奇蹟, but is watch the emperor rides on a girl, which has sexual implication. "}
-{"text": "他真的很肚爛誒", "label": 1, "logic": "Mandarin 'Dù làn' is a phonetic transliteration of Hokkien 'tōo-lān' (pissed off/annoyed)."}
-{"text": "海淪先弄濕", "label": 1, "logic": "Sounds similar to the Shampoo brand, 海倫仙度絲; However, has sexual implication"}
-{"text": "爛瑜充庶", "label": 1, "logic": "這條的邏輯是「結合『濫竽充數』與韓國瑜（瑜）、庶民（庶）的標籤，諷刺其假扮庶民、能力不足"}
+data = [ 
+  {"text": "見朕騎姬", "label": 1, "logic": "Mandarin 'Gǎn líng yáng' sounds like 見證奇蹟, but is watch the emperor rides on a girl, which has sexual implication. "},
+{"text": "他真的很肚爛誒", "label": 1, "logic": "Mandarin 'Dù làn' is a phonetic transliteration of Hokkien 'tōo-lān' (pissed off/annoyed)."},
+{"text": "海淪先弄濕", "label": 1, "logic": "Sounds similar to the Shampoo brand, 海倫仙度絲; However, has sexual implication"},
+{"text": "爛瑜充庶", "label": 1, "logic": "這條的邏輯是「結合『濫竽充數』與韓國瑜（瑜）、庶民（庶）的標籤，諷刺其假扮庶民、能力不足"},
 {"text": "發論工", "label": 1, "logic": "音近「法輪功」，常用於暗諷宗教團體法輪功。"},
 {"text": "自鯊", "label": 1, "logic": "音近「自殺」，台灣社群平台（如Dcard）常用來規避演算法降權。"},
 {"text": "臥操", "label": 1, "logic": "音近「我肏」，常見的粗口諧音。"},
@@ -20,7 +21,7 @@
 {"text": "花臂鹹豬手", "label": 1, "logic": "原為菜餚名，蔥燒花菇虎掌襯時蔬;「鹹豬手」是台灣常用語，指代性騷擾/摸胸行為。"},
 {"text": "綠白制服趴", "label": 1, "logic": "原為菜餚名，火楠翠玉白; 暗示女校校服顏色（北一、中山）的性暗示。"},
 {"text": "小姑若給茶", "label": 1, "logic": "原為菜餚名，菌菇肉骨茶; 音近「小姑若給插」（台語/中文混雜口音），具性冒犯意涵。"},
-{"text": "韓國妹子軟綿綿", "label": 1, "logic": "原為菜餚名，韓式燒肉糯米飯; 韓國妹子代指韓國的女性，具備性暗示。"}
+{"text": "韓國妹子軟綿綿", "label": 1, "logic": "原為菜餚名，韓式燒肉糯米飯; 韓國妹子代指韓國的女性，具備性暗示。"},
 {"text": "機掰人", "label": 1, "logic": "「機掰」為台語『雞掰』(ke-bai) 的諧音寫法，用字面無害字掩飾粗口。"},
 {"text": "靠盃喔", "label": 1, "logic": "「靠盃」音近台語『哭爸』(khàu-pē)，實為粗口的緩和寫法。"},
 {"text": "北七欸你", "label": 1, "logic": "「北七」音近台語『白痴』(pe̍h-tshit)，PTT常見罵人語。"},
@@ -33,7 +34,7 @@
 {"text": "他一臉機掰臉", "label": 1, "logic": "目標詞: 雞掰(ㄐㄧ ㄅㄞ) -> 替代詞: 機掰(ㄐㄧ ㄅㄞ) | 常見遮掩髒話寫法"},
 {"text": "這種行為真的很肚爛糕", "label": 1, "logic": "目標詞: 肚爛(tōo-lān) -> 替代詞: 肚爛糕 | 台語情緒詞加糕搞笑"},
 {"text": "你是在哈囉Kitty嗎", "label": 1, "logic": "目標詞: 哈囉(ㄏㄚ ㄌㄨㄛ) -> 替代詞: Hello Kitty | 嘲諷對方狀況外"},
-{"text": "這波真的芭樂票價", "label": 1, "logic": "目標詞: 芭樂票(ㄅㄚ ㄌㄜˋ ㄆㄧㄠˋ) -> 替代詞: 芭樂票價 | 加價諷刺跳票"},,
+{"text": "這波真的芭樂票價", "label": 1, "logic": "目標詞: 芭樂票(ㄅㄚ ㄌㄜˋ ㄆㄧㄠˋ) -> 替代詞: 芭樂票價 | 加價諷刺跳票"},
     {"text": "不要再臭卒仔麵線", "label": 1, "logic": "目標詞: 卒仔(台語tsut-á) -> 替代詞: 麵線 | 台語罵人"},
     {"text": "他真的很派系便當", "label": 1, "logic": "目標詞: 敗類(ㄅㄞˋ ㄌㄟˋ) -> 替代詞: 便當 | 音近轉換"},
     {"text": "這根本腦霧霾", "label": 1, "logic": "目標詞: 腦霧 -> 替代詞: 霾 | 延伸地獄梗"},
@@ -129,7 +130,7 @@
     {"text": "沒電就用愛發電", "label": 1, "logic": "Mocking anti-nuclear activists and the DPP's energy policy."},
     {"text": "小菸", "label": 1, "logic": "Mocking Tsai Ing-wen using the 'cigarette' (菸) pun from the smuggling scandal."},
     {"text": "韓導", "label": 1, "logic": "Calling Han Kuo-yu a 'Director' (導) implying his political actions were all staged/acted."},
-    {"text": "辣台妹", "label": 1, "logic": "Originally a nickname for Tsai Ing-wen, now often used sarcastically by opponents."}
+    {"text": "辣台妹", "label": 1, "logic": "Originally a nickname for Tsai Ing-wen, now often used sarcastically by opponents."},
     {"text": "趕羚羊草泥馬", "label": 1, "logic": "Mandarin 'Gǎn líng yáng' sounds like Hokkien 'Kàn-lín-niâ' (F*** your mother). Combined with '草泥馬' (Cǎo ní mǎ), a classic cross-strait homophone for '肏你媽'."},
     {"text": "你真的很機車欸", "label": 1, "logic": "Mandarin 'Jī chē' is a classic Taiwan euphemism for 'Gī-ba' (Hokkien for vagina/cunt), used to describe someone annoying or difficult."},
     {"text": "甘霖老木", "label": 1, "logic": "Mandarin 'Gān lín lǎo mù' (Sweet rain old tree) is a phonetic mask for Hokkien 'Kàn-lín-ló-bú' (F*** your mother)."},
@@ -230,3 +231,23 @@
     {"text": "廢物", "label": 1, "logic": "Trash/Useless. A common toxic label for opponents."},
     {"text": "魯蛇", "label": 1, "logic": "Phonetic for 'Loser'. 'Lǔ shé' (Salted snake)."},
     {"text": "溫拿", "label": 1, "logic": "Phonetic for 'Winner'. 'Wēn ná'."}    
+    ]
+
+# turn it into .csv 
+import csv
+import pandas as pd
+
+with open('toxic_dataset.csv', 'w', newline='', encoding='utf-8') as csvfile:
+    fieldnames = ['text', 'label', 'logic']
+    writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+    writer.writeheader()
+    for item in data:
+        writer.writerow(item)
+
+df = pd.read_csv('toxic_dataset.csv')
+df2 = pd.read_csv('./data/punes_list_clean.csv')
+# merge the two datasets
+df2['label'] = 0  # assign label 0 to all entries in df2
+merged_df = pd.concat([df, df2], ignore_index=True)
+# save the merged dataset
+merged_df.to_csv('toxic_dataset_cleaned.csv', index=False, encoding='utf-8')
