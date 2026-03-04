@@ -1,30 +1,39 @@
 ### Role
-You are a linguistic expert specializing in Taiwanese Mandarin, Hokkien (Taigi), and phonetic puns (諧音梗) common in Taiwan's internet culture (PTT, Dcard).
+You are a linguistic expert specializing in Taiwanese Mandarin, Hokkien (Taigi), and phonetic puns (諧音梗) common in Taiwan's internet culture.
 
-### Task
-Based on the provided seeds generate a dataset of 100 puns that are either "toxic," "hell jokes" (地獄梗), or use "masked profanity."
-These must specifically reflect a Taiwan context, utilizing Mandarin-Hokkien code-switching or Mandarin-English "Chinglish" common in Taiwan.
+### Task: Adversarial Dataset Generation
+Generate 100 entries of "Adversarial Toxic Puns" (Label 1). 
+**The Goal:** Prove that semantic-only models (like BERT) fail because the sentence LOOKS harmless, but is actually TOXIC when read aloud.
 
-### 核心原則：語音優先 (Phonetic-First)
-為了確保生成的是「諧音」而非「語義聯想」，請針對每一筆資料執行以下推理過程：
-1. 目標詞 (Target)：想要隱藏或諷刺的原始詞彙（例如：髒話、敏感人物、禁忌話題）。
-2. 注音符號 (Zhuyin)：寫出目標詞的注音。
-3. 諧音替代詞 (Pun Word)：找出注音相同，但字面意思無害或荒謬的替代字。
-4. 最終文本 (Text)：將替代詞放入一個看似正常的台灣生活化句子中。
+### 核心類別：多樣性與跨語言要求
+請確保 100 筆資料平均分配在以下四類，不要只修改我提供的種子：
 
-### Constraints
-1. Phonetic Basis: The pun must rely on Bopomofo (Zhuyin) or Hokkien pronunciation.
-2. Diversity: Include a mix of:
-   - Mandarin characters used to mask Hokkien slurs.
-   - Taiwanese place-name puns.
-   - Bilingual (English-Mandarin) puns used in Taiwan.
-3. Content: While "toxic" or "dirty," ensure they represent actual linguistic patterns used in online communities like PTT.
+1. **國台雙語映射 (Mandarin-Hokkien):** 利用國語文字或英文字母偽裝台語粗口或貶義詞。
+   - *例子：*「趕羚羊」、「草泥馬」之外，請開發更多如「哭爸/靠北」、「大箍呆」、「機車/機掰」的變體。
+2. **中英混雜諧音 (Mandarin-English/Chinglish):** 利用英文單字或諧音嵌入中文語境。
+   - *例子：*「You Bear 來」(有備而來)、「窩德發」(What the f***)、「泥給路」(Niger/種族歧視)。
+3. **台灣在地生活語境 (Hyper-Local Context):** 利用台灣地名、捷運站、知名品牌、藝人名進行隱晦毒性創作。
+   - *例子：* 善用「基隆、宜蘭、台中、高雄」等地名的台語/國語諧音。
+4. **社群審查避嫌詞 (Censorship Evasion):** 針對 Dcard/PTT 敏感話題（如：自殺、性行為、特定政治術語）的音韻變體。
+
+### 核心原則：語意中性 vs 語音有毒
+為了拉開語音模型與語意模型的差距，請嚴格執行以下流程：
+1. 目標詞 (Target)：選定一個極具攻擊性的詞（髒話、性暗示、嚴重羞辱）。
+2. 諧音替代 (Pun)：尋找注音相同，但字面上代表「高雅、專業、或日常瑣事」的詞。
+3. 語意偽裝 (Camouflage)：構造一個充滿正向情緒（讚美、專業討論）的句子，將替代詞嵌入其中。
+
+### Constraints (嚴格約束)
+1. **零負面詞彙：** 句子表面絕對不能出現「死、笨、爛、恨」等 BERT 易偵測的負向特徵詞。
+2. **台灣背景：** 使用台灣特有的生活場景（如：夜市、捷運、職場對話、選舉）。
+3. **音韻精準：** 必須符合台灣口音（考慮 n/l 不分、ㄓ/ㄗ 不分、或台語連讀變音）。
 
 ### Output Format
-Provide the result as a Python-list of dictionaries so I can easily convert it to a CSV:
 [
-  {"text": "pun_text", "label": 1, "logic": "explanation of the phonetic mapping + 目標詞(注音) -> 替代詞(注音) | 梗的背景說明"},
-  ...
+  {
+    "text": "句子內容",
+    "label": 1,
+    "logic": "目標詞(注音) -> 替代詞(注音) | 隱藏毒性說明 | 為何語意模型會判斷為正常？"
+  }
 ]
 
 ### Seed Examples for Logic Reference

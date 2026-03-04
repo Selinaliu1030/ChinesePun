@@ -1,19 +1,12 @@
 data = [ 
-  {"text": "見朕騎姬", "label": 1, "logic": "Mandarin 'Gǎn líng yáng' sounds like 見證奇蹟, but is watch the emperor rides on a girl, which has sexual implication. "},
 {"text": "他真的很肚爛誒", "label": 1, "logic": "Mandarin 'Dù làn' is a phonetic transliteration of Hokkien 'tōo-lān' (pissed off/annoyed)."},
-{"text": "海淪先弄濕", "label": 1, "logic": "Sounds similar to the Shampoo brand, 海倫仙度絲; However, has sexual implication"},
 {"text": "爛瑜充庶", "label": 1, "logic": "這條的邏輯是「結合『濫竽充數』與韓國瑜（瑜）、庶民（庶）的標籤，諷刺其假扮庶民、能力不足"},
-{"text": "發論工", "label": 1, "logic": "音近「法輪功」，常用於暗諷宗教團體法輪功。"},
-{"text": "自鯊", "label": 1, "logic": "音近「自殺」，台灣社群平台（如Dcard）常用來規避演算法降權。"},
-{"text": "臥操", "label": 1, "logic": "音近「我肏」，常見的粗口諧音。"},
-{"text": "煉銅", "label": 1, "logic": "音近「戀童」，指代對兒童的性偏好，屬社群禁忌語。"},
 {"text": "除舊汰欣", "label": 1, "logic": "結合「除舊佈新」與立委「徐欣瑩」之名，意指罷免徐欣瑩。"},
 {"text": "展翅廢翔", "label": 1, "logic": "結合「展翅飛翔」與立委「廖偉翔」之名，意指罷免廖偉翔。"},
 {"text": "花蓮不收支傅寶", "label": 1, "logic": "結合「支付寶」與花蓮立委「傅崐萁」之名，意指罷免傅崐萁。"},
 {"text": "撕除惡銘", "label": 1, "logic": "結合「撕除惡名」與立委「林思銘」之名，意指罷免林思銘。"},
 {"text": "塔綠班", "label": 1, "logic": "結合「塔利班」與「綠營」，用於嘲諷民進黨支持者。"},
 {"text": "憨粉", "label": 1, "logic": "音近「韓粉」，將韓國瑜支持者與「憨」（笨）結合。"},
-{"text": "可撥", "label": 1, "logic": "源於遊戲實況主統神將「可悲」打錯成「可撥」，演變成嘲諷用語。"},
 {"text": "現在還買得到黑巧克力，買不到黑人", "label": 1, "logic": "涉及黑奴貿易與種族歧視的地獄梗。"},
 {"text": "英文字母沒有大S", "label": 1, "logic": "利用藝人「大S」過世或負面新聞（視時事而定）的惡意玩笑。"},
 {"text": "孤兒院都沒有家長投訴", "label": 1, "logic": "利用「孤兒」沒有父母的悲劇進行嘲諷的地獄梗。"},
@@ -29,21 +22,16 @@ data = [
 {"text": "哩洗咧衝三小", "label": 1, "logic": "台語句型『你是在衝啥小』(lí sī teh chhòng siánn-siáu)，罵人用語。"},
 {"text": "菜逼八", "label": 1, "logic": "「菜逼八」音近台語『菜鳥仔』與粗口混合，用於嘲諷新手。"},
 {"text": "假掰郎", "label": 1, "logic": "「假掰」音近台語『假掰』(ké-bai，做作)，常見網路罵人語。"},
-{"text": "是在哈囉", "label": 1, "logic": "Chinglish『Hello』誤用成質問語氣，台灣網路嘲諷用語。"},
 {"text": "很會嘴砲欸", "label": 1, "logic": "「嘴砲」源自BBS文化，意指只會說不會做。"},
 {"text": "他一臉機掰臉", "label": 1, "logic": "目標詞: 雞掰(ㄐㄧ ㄅㄞ) -> 替代詞: 機掰(ㄐㄧ ㄅㄞ) | 常見遮掩髒話寫法"},
 {"text": "這種行為真的很肚爛糕", "label": 1, "logic": "目標詞: 肚爛(tōo-lān) -> 替代詞: 肚爛糕 | 台語情緒詞加糕搞笑"},
 {"text": "你是在哈囉Kitty嗎", "label": 1, "logic": "目標詞: 哈囉(ㄏㄚ ㄌㄨㄛ) -> 替代詞: Hello Kitty | 嘲諷對方狀況外"},
 {"text": "這波真的芭樂票價", "label": 1, "logic": "目標詞: 芭樂票(ㄅㄚ ㄌㄜˋ ㄆㄧㄠˋ) -> 替代詞: 芭樂票價 | 加價諷刺跳票"},
     {"text": "不要再臭卒仔麵線", "label": 1, "logic": "目標詞: 卒仔(台語tsut-á) -> 替代詞: 麵線 | 台語罵人"},
-    {"text": "他真的很派系便當", "label": 1, "logic": "目標詞: 敗類(ㄅㄞˋ ㄌㄟˋ) -> 替代詞: 便當 | 音近轉換"},
     {"text": "這根本腦霧霾", "label": 1, "logic": "目標詞: 腦霧 -> 替代詞: 霾 | 延伸地獄梗"},
     {"text": "趕羚羊", "label": 1, "logic": "Mandarin 'Gǎn líng yáng' sounds like the Hokkien slur 'Kán-lín-niâ' (F*** your mother)."},
     {"text": "草泥馬", "label": 1, "logic": "Mandarin 'Cǎo ní mǎ' sounds like the slur 'Cào nǐ mā' (F*** your mother)."},
     {"text": "賽妳娘", "label": 1, "logic": "Mandarin 'Sài nǐ niáng' is a phonetic rendering of the Hokkien slur 'Sái-lín-niâ'."},
-    {"text": "林北", "label": 1, "logic": "Mandarin transliteration of Hokkien 'Lín-pē' (Your father/I, your father), used assertively or rudely."},
-    {"text": "靠北", "label": 1, "logic": "Mandarin transliteration of Hokkien 'Khàu-pē' (Cry for your dead father), meaning to complain or talk nonsense."},
-    {"text": "機掰", "label": 1, "logic": "Mandarin 'Jī bāi' masks the Hokkien 'Tsi-bai' (Vagina), used as a general insult for being annoying."},
     {"text": "雞芭", "label": 1, "logic": "Another phonetic mask for 'Tsi-bai' (Vagina), often used to bypass filters."},
     {"text": "哭爸", "label": 1, "logic": "Direct Mandarin translation of 'Khàu-pē' (Hokkien), used to tell someone to shut up or stop complaining."},
     {"text": "傻B", "label": 1, "logic": "Mandarin 'Shǎ B' where 'B' stands for 'Biǎo' or 'Bī' (Vagina/Slut), meaning 'Stupid Cunt'."},
@@ -53,15 +41,8 @@ data = [
     {"text": "想花Q", "label": 1, "logic": "Phonetic Mandarin 'Xiǎng huā Q' sounds like 'I want to Fuck You'."},
     {"text": "你很487誒", "label": 1, "logic": "Numbers '487' in Mandarin (Sì bā qī) sound like 'Shì báichī' (Is an idiot)."},
     {"text": "7414", "label": 1, "logic": "Numbers '7414' (Qī sì yī sì) sound like 'Qù sǐ yī sǐ' (Go die)."},
-    {"text": "87", "label": 1, "logic": "Number '87' (Bā qī) sounds like 'Báichī' (Idiot) in Mandarin/Taiwanese accent."},
-    {"text": "948794狂", "label": 1, "logic": "Numbers '9487' sound like 'Jiùshì báichī' (Just an idiot), adding '94狂' (Just crazy)."},
     {"text": "妳很CC誒", "label": 1, "logic": "In some Taiwan slang context, 'CC' sounds like 'Xi-si' (Hokkien for 'Sucking seed/penis')."},
     {"text": "不要G8", "label": 1, "logic": "G8 (Jī bā) is a phonetic mask for 'Ji-bai' (Vagina), meaning 'Don't be a dick/annoying'."},
-    {"text": "3小", "label": 1, "logic": "Mandarin 'Sān xiǎo' sounds like Hokkien 'Sán-siáu', a rude way to say 'What the hell?'."},
-    {"text": "豪洨", "label": 1, "logic": "Mandarin 'Háo xiáo' sounds like Hokkien 'Hô-siáu' (Talking semen/Bulls***)."},
-    {"text": "唬爛", "label": 1, "logic": "Mandarin 'Hǔ làn' sounds like Hokkien 'Hóo-lān' (Tiger penis), meaning to lie or exaggerate."},
-    {"text": "機車", "label": 1, "logic": "A polite euphemism for 'Ji-bai' (Vagina/Annoying), used since the 90s in Taiwan."},
-    {"text": "擊敗人", "label": 1, "logic": "Mandarin 'Jī bài rén' (Defeat person) sounds like 'Ji-bai' (Vagina/A**hole)."},
     {"text": "積白", "label": 1, "logic": "Another phonetic mask for 'Ji-bai'."},
     {"text": "1450", "label": 1, "logic": "Refers to paid internet trolls/cyber army for the DPP, based on a government budget figure."},
     {"text": "中共同路人", "label": 1, "logic": "A political slur used to label anyone perceived as pro-China or anti-government."},
@@ -73,35 +54,19 @@ data = [
     {"text": "柯黑", "label": 1, "logic": "Term for people who hate Ko Wen-je."},
     {"text": "邁擱考", "label": 1, "logic": "Sounds like 'Chen Chi-mai (迈) stop testing/crying', used in Kaohsiung politics."},
     {"text": "高雄發大財", "label": 1, "logic": "Originally Han Kuo-yu's slogan, now used sarcastically to mock failed promises or poverty."},
-    {"text": "暖男", "label": 1, "logic": "Used sarcastically for Kaohsiung politicians when disasters happen (mocking the 'Warm City' branding)."},
     {"text": "慶記", "label": 1, "logic": "Hokkien 'Tshìng-kì' sounds like 'bullets', used to joke about Taichung’s crime rate."},
     {"text": "台中消波塊", "label": 1, "logic": "Refers to the urban legend that enemies of the local mafia end up inside concrete tetrapods."},
-    {"text": "苗栗國", "label": 1, "logic": "Mocks Miaoli as an independent 'state' due to its distinct local political structure and debt."},
-    {"text": "天龍人", "label": 1, "logic": "Refers to wealthy, out-of-touch Taipei residents (from 'One Piece' Celestials)."},
-    {"text": "加州大地震", "label": 1, "logic": "A hell joke context when an earthquake hits, asking if 'California' (or a specific person) is okay."},
-    {"text": "我就爛", "label": 1, "logic": "A self-deprecating meme used to deflect criticism, popular on PTT."},
-    {"text": "五酒桶山", "label": 1, "logic": "Place name in Taoyuan; used as a pun for 'Wǔ jiǔ tǒng' (Five wine buckets) to mock heavy drinkers."},
-    {"text": "南投有什麼", "label": 1, "logic": "Used to trigger discussions about local scandals or the 'indifference' of the region."},
-    {"text": "彰化不意外", "label": 1, "logic": "Used when something strange or backwards happens in Changhua."},
-    {"text": "屏東太陽大", "label": 1, "logic": "Often used to mask discussions about rural corruption or heat-induced 'madness'."},
-    {"text": "真。天龍城", "label": 1, "logic": "Usually refers to the Tianmu area of Taipei, mocking extreme elitism."},
     {"text": "哈味", "label": 1, "logic": "From a news clip of a woman describing cantaloupe (Hami-gua), used to mock weird personal tastes."},
-    {"text": "瑞凡，我回不去了", "label": 1, "logic": "From a drama, used in hell jokes about death or permanent disability."},
     {"text": "下去領500", "label": 1, "logic": "Accusing someone of being a paid troll (paid 500 NTD to post)."},
     {"text": "功德院", "label": 1, "logic": "Mocking the Executive Yuan (Gòng-dé-yuàn) after William Lai’s 'doing it for merit' comment."},
     {"text": "賴神", "label": 1, "logic": "Originally a compliment for William Lai, now often used sarcastically when things go wrong."},
     {"text": "柯文哲的假帳", "label": 1, "logic": "Used to mock financial scandals or 'fake' transparency."},
     {"text": "郭董的鈔能力", "label": 1, "logic": "Refers to Terry Gou's wealth being his only superpower."},
-    {"text": "是在哈囉", "label": 1, "logic": "Taiwanese Gen Z slang for 'What the hell are you doing?', used to belittle people."},
     {"text": "母豬教", "label": 1, "logic": "A toxic PTT subculture (Obov) used to insult women based on perceived materialism."},
     {"text": "台女不意外", "label": 1, "logic": "Toxic slur used to generalize and insult Taiwanese women."},
     {"text": "ㄈㄓ", "label": 1, "logic": "Bopomofo (ㄈㄓ) for 'Féi zhái' (Fat Otaku), used as a self-deprecating or external insult."},
     {"text": "台男悲歌", "label": 1, "logic": "Used to mock the struggles of Taiwanese men in the dating market."},
-    {"text": "CCR", "label": 1, "logic": "'Cross-Cultural Romance', used toxically to mock Taiwanese women who date foreigners."},
     {"text": "吃屎哥", "label": 1, "logic": "Refers to a specific internet personality, used to tell someone to go eat s***."},
-    {"text": "不可以色色", "label": 1, "logic": "Used in memes to mask sexual desire, often used in borderline NSFW contexts."},
-    {"text": "色區", "label": 1, "logic": "Mandarin 'Sè qū' sounds like 'Sex' (Sè-khù) or a restricted area."},
-    {"text": "不要玩食物", "label": 1, "logic": "Often used as a hell joke when a person is treated like an object or 'meat'."},
     {"text": "開山里", "label": 1, "logic": "A local neighborhood that became a meme due to a nationwide alert error; used to mock government tech failures."},
     {"text": "送肉粽", "label": 1, "logic": "A ritual for suicide victims in Changhua; used as a hell joke to tell someone to kill themselves."},
     {"text": "甲由", "label": 1, "logic": "Combining the characters for 'Gay' (Jiǎ) and 'Oil' (Yóu), a toxic term for gay men."},
@@ -179,11 +144,11 @@ data = [
     {"text": "阿共仔的陰謀", "label": 1, "logic": "A common meme phrase: 'It's a CCP conspiracy', used both seriously and sarcastically."},
     {"text": "支語警察", "label": 1, "logic": "Mainland Slang Police. People who call out others for using PRC vocabulary (e.g., 視頻 instead of 影片)."},
     {"text": "灣灣", "label": 1, "logic": "A term used by Mainland netizens, often viewed as condescending or 'cutesy-aggressive' by Taiwanese."},
-    {"text": "地獄梗：為什麼孤兒不用買保險？因為沒人領受益金。", "label": 1, "logic": "Hell joke targeting orphans. Exploits the tragedy of having no family for a cruel logic joke."},
-    {"text": "地獄梗：身障人士最喜歡什麼零食？當然是脆迪酥（脆底書）。", "label": 1, "logic": "Hell joke targeting the disabled, using the brand name to mock physical fragility."},
-    {"text": "地獄梗：為什麼黑人只在晚上出門？因為他們只有牙齒是亮的。", "label": 1, "logic": "Classic racist hell joke common in certain dark-humor corners of PTT."},
-    {"text": "地獄梗：燒臘店最怕誰？鄭捷。", "label": 1, "logic": "Extreme hell joke referencing the Taipei Metro mass murderer Cheng Chieh and 'slicing meat'."},
-    {"text": "地獄梗：廣島的人最熱情。", "label": 1, "logic": "Hell joke about the atomic bomb, implying they are 'hot' (literally burnt)."},
+    {"text": "為什麼孤兒不用買保險？因為沒人領受益金。", "label": 1, "logic": "Hell joke targeting orphans. Exploits the tragedy of having no family for a cruel logic joke."},
+    {"text": "身障人士最喜歡什麼零食？當然是脆迪酥（脆底書）。", "label": 1, "logic": "Hell joke targeting the disabled, using the brand name to mock physical fragility."},
+    {"text": "為什麼黑人只在晚上出門？因為他們只有牙齒是亮的。", "label": 1, "logic": "Classic racist hell joke common in certain dark-humor corners of PTT."},
+    {"text": "燒臘店最怕誰？鄭捷。", "label": 1, "logic": "Extreme hell joke referencing the Taipei Metro mass murderer Cheng Chieh and 'slicing meat'."},
+    {"text": "廣島的人最熱情。", "label": 1, "logic": "Hell joke about the atomic bomb, implying they are 'hot' (literally burnt)."},
     {"text": "台男/台女", "label": 1, "logic": "Taiwanese Man/Woman. Used almost exclusively in toxic gender wars on PTT's Boy-Girl board."},
     {"text": "母豬教", "label": 1, "logic": "A toxic online 'religion' on PTT that hates on women they deem gold-diggers or unfaithful."},
     {"text": "ㄈㄓ", "label": 1, "logic": "Bopomofo (ㄈㄓ - f d) for '肥宅' (Fat Otaku). Self-deprecating or insulting term for PTT users."},
@@ -230,8 +195,246 @@ data = [
     {"text": "腦殘", "label": 1, "logic": "Brain disabled. Common insult for illogical people."},
     {"text": "廢物", "label": 1, "logic": "Trash/Useless. A common toxic label for opponents."},
     {"text": "魯蛇", "label": 1, "logic": "Phonetic for 'Loser'. 'Lǔ shé' (Salted snake)."},
-    {"text": "溫拿", "label": 1, "logic": "Phonetic for 'Winner'. 'Wēn ná'."}    
-    ]
+    {"text": "溫拿", "label": 1, "logic": "Phonetic for 'Winner'. 'Wēn ná'."},
+    {"text": "這道菜色香味俱全，尤其是那對大鮑魚。","label": 1,"logic": "大鮑魚 (dà bào yú) | 在台灣成人俚語中，「鮑魚」指代女性私處。 | 語意模型會因其出現在美食評論脈絡而判斷為正面。"},
+    {"text": "他們公司的福利很好，大家都想進來吹喇叭。","label": 1,"logic": "吹喇叭 | 指代口交。 | 字面上是管樂器演奏，模型會判斷為才藝或嗜好。"},
+    {"text": "陳經理對下屬非常照顧，大家都說他很會舔。","label": 1,"logic": "舔 | 指代諂媚或性暗示動作。 | 字面上是生理動作，但在職場脈絡具高度羞辱性。"},
+  {
+    "text": "這件衣服的剪裁，讓你的長輩呼之欲出。",
+    "label": 1,
+    "logic": "長輩 | 台灣社群用語，指女性胸部。 | 語意模型會判斷為對家庭成員的敬語。"
+  },
+  {
+    "text": "這場選舉，我們一定要支持草包。",
+    "label": 1,
+    "logic": "草包 | 台灣政治用語，專指特定政治人物（韓國瑜）缺乏內涵。 | 字面上是物品（草編包包）。"
+  },
+  {
+    "text": "你今天的妝容很台女典範。",
+    "label": 1,
+    "logic": "台女 | 台灣網路用語，具貶義，指拜金、挑剔的台灣女性。 | 語意模型會判斷為「台灣女性」的簡稱。"
+  },
+  {
+    "text": "這家餐廳的服務員，每個都長得很欠幹。",
+    "label": 1,
+    "logic": "欠幹 | 指「欠操」，具高度性侵略與羞辱。 | 字面上「幹」在職場代表幹練、做事。"
+  },
+  {
+    "text": "他的做事風格非常果斷，真是一個機掰人。",
+    "label": 1,
+    "logic": "機掰人 | 音近「機歪」（雞掰），形容人個性難搞、討厭。 | 字面上可能被誤認為與機械或掰開有關。"
+  },
+  {
+    "text": "我們國家的領導人，真是個蔡英文。",
+    "label": 1,
+    "logic": "蔡英文 | 菜鳥、英文很爛（菜英文）的雙關，用於政治嘲諷。 | 語意模型會辨識為人名而忽略嘲諷意圖。"
+  },
+  {
+    "text": "這家店的招牌菜是香鮑佐蘿莉，一定要點。",
+    "label": 1,
+    "logic": "鮑魚、蘿莉 | 性暗示與戀童意涵。 | 字面上是精緻餐點名稱。"
+  },
+  {
+    "text": "這場活動現場都是塔綠班。",
+    "label": 1,
+    "logic": "塔利班 -> 塔綠班 | 對民進黨支持者的極端化標籤。 | 字面上像是某種宗教或班級名稱。"
+  },
+  {
+    "text": "他的口才很好，很會帶風向，真是個網軍頭子。",
+    "label": 1,
+    "logic": "網軍 | 台灣政治環境中極具攻擊性的標籤。 | 字面上是網路軍隊，具專業感。"
+  },
+  {
+    "text": "這場演出的服裝，展現了綠白制服趴的精神。",
+    "label": 1,
+    "logic": "綠白制服 | 暗示女高中生性幻想。 | 字面上是色彩與聚會的描述。"
+  },
+  {
+    "text": "這場遊行的口號是，撕除惡銘，大家加油。",
+    "label": 1,
+    "logic": "撕除惡名 -> 撕除惡銘 | 針對林思銘的罷免雙關。 | 字面上是正面的名譽修復。"
+  },
+  {
+    "text": "他的長相很有異國風情，像個阿三。",
+    "label": 1,
+    "logic": "阿三 | 對印度裔的種族歧視用語。 | 語意模型可能判斷為暱稱。"
+  },
+  {
+    "text": "這場辯論會，他表現得像個憨粉一樣忠誠。",
+    "label": 1,
+    "logic": "韓粉 -> 憨粉 | 羞辱政治支持者。 | 字面上是「忠誠的粉絲」。"
+  },
+  {
+    "text": "他的脾氣很古怪，常讓人感到肚爛。",
+    "label": 1,
+    "logic": "tōo-lān (台語) -> 肚爛 | 極度厭煩、憤怒。 | 字面上像是肚子不舒服。"
+  },
+  {
+    "text": "這場派對有很多漂亮的小姐姐，可以隨便撩。",
+    "label": 1,
+    "logic": "撩 | 騷擾、調情。 | 字面上是撥弄，常被誤認為社交技巧。"
+  },
+  {
+    "text": "他在職場上很吃得開，因為他很會做愛做的事。",
+    "label": 1,
+    "logic": "做愛做的事 | 性行為。 | 字面上是「追求興趣」。"
+  },
+  {
+    "text": "這場音樂會，指揮家很有老司機的架勢。",
+    "label": 1,
+    "logic": "老司機 | 熟知情色資源、性經驗豐富的人。 | 字面上是資深駕駛。"
+  },
+  {
+    "text": "他在網路上很有名，大家都叫他鍵盤俠。",
+    "label": 1,
+    "logic": "鍵盤俠 | 網路霸凌者。 | 字面上像是「數位英雄」。"
+  },
+  {
+    "text": "他對女生很有禮貌，大家都說他是個紳士，其實是個色鬼。",
+    "label": 1,
+    "logic": "色鬼 | 好色之徒。 | 前半段的正面詞彙（禮貌、紳士）會強烈干擾 BERT。"
+  },
+  {
+    "text": "他的行為舉止，真像個媽寶。",
+    "label": 1,
+    "logic": "媽寶 | 缺乏獨立人格的男性，具羞辱性。 | 字面上是「媽媽的寶貝」，語意極正向。"
+  },
+  {
+    "text": "他的穿搭風格，真是充滿了支味。",
+    "label": 1,
+    "logic": "支味 | 對中國大陸審美觀的種族/地域歧視。 | 字面上是「支撐的味道」或無意義詞。"
+  },
+  {
+    "text": "他的說話方式，很有大陸妹的味道。",
+    "label": 1,
+    "logic": "大陸妹 | 對中國女性的貶稱，同時也是台灣一種蔬菜名。 | 語意模型會判斷為蔬菜。"
+  },
+  {
+    "text": "他在團隊中，一直扮演著攪屎棍的角色。",
+    "label": 1,
+    "logic": "攪屎棍 | 諷刺把事情搞混、唯恐天下不亂的人。 | 字面上是農具或清潔工具。"
+  },
+  {
+    "text": "這場活動的參與者，全是些社會底層。",
+    "label": 1,
+    "logic": "社會底層 | 階級歧視。 | 字面上是中性的社會學描述。"
+  },
+  {
+    "text": "他的想法很先進，真像個外星人。",
+    "label": 1,
+    "logic": "外星人 | 諷刺人怪異、難以溝通。 | 字面上是讚美聰明或科幻。 "
+  },
+  {
+    "text": "他的說話方式，真像個鍵盤教練。",
+    "label": 1,
+    "logic": "鍵盤教練 | 只會說不會做的評論者。 | 字面上是「數位設備的指導老師」。"
+  },
+  {
+    "text": "王經理這份專案報告寫得「You Bear 來的」，簡直是職場典範。",
+    "label": 1,
+    "logic": "You Bear (ㄅㄟˋ) -> 有備(ㄅㄟˋ)而來 -> 有「背」而來 | 暗諷對方心機重、背後捅刀或存心不良 | 表面上是專業職場稱讚。"
+  },
+  {
+    "text": "今天的晚餐我想來點香鮑佐蘿莉，這家法式料理真高級。",
+    "label": 1,
+    "logic": "鮑 (女性私處) + 蘿莉 (幼女) | 性暗示與戀童癖隱喻 | 字面上是高檔食材與菜名，BERT 會判斷為美食評論。"
+  },
+  {
+    "text": "大家對這項新政策的態度真是草泥馬一般的奔放與熱情。",
+    "label": 1,
+    "logic": "Cǎo ní mǎ -> 肏你媽 | 兩岸共通的經典諧音粗口，利用動物名掩蓋 | 語意模型會認為在描述「奔放、熱情」的正面情緒。"
+  },
+  {
+    "text": "你的穿搭風格很有大箍呆的復古感，真的很適合你。",
+    "label": 1,
+    "logic": "大箍呆 (Tuā-khoo-tāi) -> 死胖子 | 台語對肥胖者的羞辱性稱呼 | 字面上偽裝成對「復古風格」的稱讚。"
+  },
+  {
+    "text": "這部電影的剪輯邏輯泥給路非常清晰，讓人一秒看懂。",
+    "label": 1,
+    "logic": "泥給路 -> Nigger | 極端種族歧視用語的音譯 | 字面上是討論電影剪輯與路徑邏輯。"
+  },
+  {
+    "text": "他的這份感情簡直是煉銅般的堅硬，永不退縮。",
+    "label": 1,
+    "logic": "煉銅 -> 戀童 | 規避審查的性偏好術語 | 字面上是描述意志堅定（如金屬冶煉）。"
+  },
+  {
+    "text": "這家小吃店的小姑若給茶真的很回甘，一定要試試。",
+    "label": 1,
+    "logic": "小姑若給茶 -> 小姑若給插 (Sió-koo-nā-hōo-tshiah) | 台語/國語混合的性冒犯用語 | 字面上是介紹特色茶飲。"
+  },
+  {
+    "text": "這間新開的健身房韓粉體積很大",
+    "label": 1,
+    "logic": "韓粉 -> 韓國瑜支持者 (含貶義) 或「憨粉」 | 政治標籤羞辱 | 字面上是討論「韓國生產的粉末（高蛋白）」。"
+  },
+  {
+    "text": "這款遊戲的可撥水效果做得太逼真了，電腦快跑不動。",
+    "label": 0,
+    "logic": "可撥 -> 可悲 | 網路實況用語，指對方很可憐或很低端 | 字面上是「可以撥動水」的圖像效果描述。"
+  },
+  {
+    "text": "大家對陳組長的領導都是甘霖老木。",
+    "label": 1,
+    "logic": "甘霖老木 -> 趕羚羊草泥馬 / 肏你老母 | 結合國台語的高級羞辱 | 字面上是描述枯木逢甘霖的正面文學。"
+  },
+  {
+    "text": "他的發言內容三小時內就傳遍全網，影響力極大。",
+    "label": 0,
+    "logic": "三小 -> 啥小 (Siánn-siáu) | 台語粗口「什麼鬼」 | 字面上是時間量詞（三小時）。"
+  },
+  {
+    "text": "這家餐廳的裝潢是林北歐風格，簡約又不失質感。",
+    "label": 0,
+    "logic": "林北 -> Lín-pē | 台語自稱老子，具挑釁意味 | 字面上是「林」姓與「北歐」風格的結合。"
+  },
+  {
+    "text": "他在群組裡的發言洗勒哈囉，讓大家瞬間充滿問號。",
+    "label": 1,
+    "logic": "洗勒哈囉 -> 是在哈囉 (是在衝三小) | 台灣常用於表示「你搞什麼鬼」的嘲諷 | 字面上是洗臉與打招呼。"
+  },
+  {
+    "text": "他的新髮型簡直是走鐘藝術的巔峰，很有個人風格。",
+    "label": 1,
+    "logic": "走鐘 -> 歪掉/崩壞 | 台灣常用語指人或事變質 | 字面上是藝術流派名稱。"
+  },
+  {
+    "text": "他在會議上的表情「很有梗」，簡直是梗圖生產器。",
+    "label": 1,
+    "logic": "梗 -> 骨灰罈 (台灣地獄梗諧音) | 極端羞辱 | 字面上是稱讚幽默。"
+  },
+  {
+    "text": "他一直帶球過人，體力真的很好。",
+    "label": 1,
+    "logic": "帶球過人 -> 懷孕 (台灣常用語) | 隱晦性話題 | 字面上是籃球術語。"
+  },
+  {
+    "text": "他在工作上一直在裝，非常適合當室內設計師。",
+    "label": 1,
+    "logic": "裝 -> 裝模作樣 | 人格批判 | 字面上是裝潢施工。"
+  },
+  {
+    "text": "這場婚禮的菜色真的很補，尤其是新郎那道鱉肉。",
+    "label": 1,
+    "logic": "鱉 -> 縮頭烏龜 (暗諷新郎) | 社會毒性 | 字面上是描述營養成分。"
+  },
+  {
+    "text": "你這表現真的白吃到爆",
+    "label": 1,
+    "logic": "白痴。"
+  },
+{
+    "text": "你整體給人一種廢柴的自在感。",
+    "label": 1,
+    "logic": "廢柴 -> 廢物、無用之人 | 社會毒性 | 字面上是描述一種無用的自在感。"},
+{
+    "text": " 這表現 87 到極致",
+    "label": 1,
+    "logic": "87 -> 八七 -> 白痴 | 台灣網路用語，暗諷對方表現得像在巴結別人 | 字面上是數字描述表現程度。"
+  }, 
+]
+
 
 # turn it into .csv 
 import csv
