@@ -1,0 +1,24 @@
+text,label,logic
+中共同路人,1,A political slur used to label anyone perceived as pro-China or anti-government.
+哈味,1,"From a news clip of a woman describing cantaloupe (Hami-gua), used to mock weird personal tastes."
+大麻煩,1,Pun on 'Big Trouble' (Dà máfan) involving 'Marijuana' (Dàmá).
+柯文哲的假帳,1,Used to mock financial scandals or 'fake' transparency.
+哭爸,1,"Direct Mandarin translation of 'Khàu-pē' (Hokkien), used to tell someone to shut up or stop complaining."
+想花Q,1,Phonetic Mandarin 'Xiǎng huā Q' sounds like 'I want to Fuck You'.
+保外就醫,1,"Used to mock Chen Shui-bian's legal status, or anyone 'faking' sickness to escape duty."
+林北,1,"Mandarin transliteration of Hokkien 'Lín-pē' (Your father/I, your father), used assertively or rudely."
+機掰,1,"Mandarin 'Jī bāi' masks the Hokkien 'Tsi-bai' (Vagina), used as a general insult for being annoying."
+暖男,1,Used sarcastically for Kaohsiung politicians when disasters happen (mocking the 'Warm City' branding).
+
+1. 是否具有惡意 2. 是否具有諧音 3. 多樣性
+
+(1) 1. O 2. X 
+(2) 1. O 2. O 
+(3) 1. O 2. O 
+(4) 1. O 2. X
+(5) 1. O 2. O 
+(6) 1. X 2. O
+(7) 1. X 2. X 
+(8) 1. X 2. O 
+(9) 1. O 2. O 
+(10) 1. X 2. X

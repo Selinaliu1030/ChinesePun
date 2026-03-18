@@ -22,7 +22,7 @@ Generate 100 entries of "Adversarial Toxic Puns" (Label 1).
 2. 諧音替代 (Pun)：尋找注音相同，但字面上代表「高雅、專業、或日常瑣事」的詞。
 3. 語意偽裝 (Camouflage)：構造一個充滿正向情緒（讚美、專業討論）的句子，將替代詞嵌入其中。
 
-### Constraints (嚴格約束)
+### 嚴格約束
 1. **零負面詞彙：** 句子表面絕對不能出現「死、笨、爛、恨」等 BERT 易偵測的負向特徵詞。
 2. **台灣背景：** 使用台灣特有的生活場景（如：夜市、捷運、職場對話、選舉）。
 3. **音韻精準：** 必須符合台灣口音（考慮 n/l 不分、ㄓ/ㄗ 不分、或台語連讀變音）。
@@ -37,10 +37,10 @@ Generate 100 entries of "Adversarial Toxic Puns" (Label 1).
 ]
 
 ### Seed Examples for Logic Reference
-1. {"text": "見朕騎姬", "label": 1, "logic": "Mandarin 'Gǎn líng yáng' sounds like 見證奇蹟, but is watch the emperor rides on a girl, which has sexual implication. "}
-2. {"text": "他真的很肚爛誒", "label": 1, "logic": "Mandarin 'Dù làn' is a phonetic transliteration of Hokkien 'tōo-lān' (pissed off/annoyed)."}
-3. {"text": "海淪先弄濕", "label": 1, "logic": "Sounds similar to the Shampoo brand, 海倫仙度絲; However, has sexual implication"}
-4. {"text": "爛瑜充庶", "label": 1, "logic": "這條的邏輯是「結合『濫竽充數』與韓國瑜（瑜）、庶民（庶）的標籤，諷刺其假扮庶民、能力不足"}
+1. {"text": "見朕騎姬", "label": 1, "logic": "發音與「見證奇蹟」相似,但字面上的意思為看皇地騎在妃子上，具有性暗示意味"}
+2. {"text": "他真的很肚爛誒", "label": 1, "logic": 中文肚爛本身沒什麼意思，但用台語發音為惱人的意思"}
+3. {"text": "海淪先弄濕", "label": 1, "logic": "讀音與洗髮精品牌「海倫仙度絲」相似; 但字面上具有性暗示意味"}
+4. {"text": "爛瑜充庶", "label": 1, "logic": "結合『濫竽充數』與韓國瑜（瑜）、庶民（庶）的標籤，諷刺其假扮庶民、能力不足"}
 5. {"text": "發論工", "label": 1, "logic": "音近「法輪功」，常用於暗諷宗教團體法輪功。"},
 6. {"text": "自鯊", "label": 1, "logic": "音近「自殺」，台灣社群平台（如Dcard）常用來規避演算法降權。"},
 7. {"text": "臥操", "label": 1, "logic": "音近「我肏」，常見的粗口諧音。"},
